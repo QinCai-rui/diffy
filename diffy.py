@@ -1,5 +1,6 @@
 from sys import exit
 
+# Function for counting Diffy levels
 def diffy_squares(a, b, c, d):
     counter = 0
     while not (a == 0 and b == 0 and c == 0 and d == 0):
@@ -7,6 +8,7 @@ def diffy_squares(a, b, c, d):
         counter += 1
     return counter
 
+# The logic of "trial-and-error" Diffy Squares to find the biggest score
 def find_max_score(lower_range_limit, upper_range_limit):
     max_score = 0
     max_values = (0, 0, 0, 0)

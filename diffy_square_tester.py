@@ -1,5 +1,6 @@
 from sys import exit
 
+# Function for counting Diffy levels
 def diffy_squares(a, b, c, d):
     counter = 0
     print(f"Round {counter}: ({a}, {b}, {c}, {d})")
@@ -9,7 +10,7 @@ def diffy_squares(a, b, c, d):
         counter += 1
     return counter
 
-    
+# Gets the number for testing and prints the result
 def numbers_response():
     # Input the four numbers to be tested
     a, b, c, d = map(float, input("\nEnter four numbers separated by spaces (CTRL+C to quit): ").split())
@@ -20,8 +21,10 @@ def numbers_response():
     # Print the result
     print(f"The four numbers ({a}, {b}, {c}, {d}) last for {rounds} rounds.")
 
+# Main program logic
 if __name__ == "__main__":
     while True:
+        # Some try-except logics to handle errors
         try:
             numbers_response()
         except KeyboardInterrupt:
