@@ -24,7 +24,7 @@ def numbers_response():
 # Main program logic
 if __name__ == "__main__":
     while True:
-        # Some try-except logics to handle errors
+        # Try - except logics to handle errors
         try:
             numbers_response()
         except KeyboardInterrupt:
