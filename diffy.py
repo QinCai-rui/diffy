@@ -25,6 +25,7 @@ def find_max_score(lower_range_limit, upper_range_limit):
 
     return max_score, max_values
 
+# Program main logic, of course
 def main():
     print("You will be asked for the number range being used.")
     print("Please enter a small range to start with, as this code takes a bit time to run.")
@@ -36,6 +37,8 @@ def main():
     max_score, max_values = find_max_score(lower_range_limit, upper_range_limit + 1)
     print(f"Max score using numbers {lower_range_limit} to {upper_range_limit}: {max_score} with values: {max_values}")
 
+
+# TRY-EXCEPT logic for error detection
 if __name__ == "__main__":
     try:
         main()
