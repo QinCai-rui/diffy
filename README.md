@@ -2,8 +2,6 @@
 
 This project includes two scripts for solving the Diffy Squares problem. There were more than two scripts but due to the fact that I have worked on multiple machines to complete this project, I cannot find the other files (I forgot to commit changes!!). I will try and search through all the devices I have worked on and (hopefully!) I can put them back here!
 
-This project was inspired by the NZMO, I think New Zealand Mathematical Olympiad? For backgroud info, fell free to read the last part of this readme (that was generated my chatgpt!)
-
 ## Files
 
 ### 1. `diffy.py`
@@ -79,7 +77,7 @@ New max score: 25 with values: (0, 927, 2632, 5768)
 The list above is what I got. Can you try and beat my score? Who knows!
 
 Enough talking (for now). Enjoy exploring the Diffy Squares problem!
-Remember to DM me on Slack (I am @QinCai) or email me at <diffy@qincai.xyz> if you beat my score! I would love to know!
+Remember to DM me on Slack (I am [@QinCai on the Hack Club Slack](https://hackclub.slack.com/archives/D07BNRCH88P)) or email me at <diffy@qincai.xyz> if you beat my score! I would love to know!
 
 Ohhh... looks like our friend Microsoft Copilot has something for us...
 
@@ -89,13 +87,14 @@ Ahoy, adventurers! 🌊 Ever stumbled upon a maths puzzle that's both simple and
 
 ### How Does It Work?
 
-1. **Pick Four Numbers**: Any four will do – whole numbers, decimals, negatives, you name it. e.g. (3, 1, 9, 12)
+1. **Pick Four Numbers**: Any four will do – whole numbers, decimals, negatives, you name it. e.g. `(3, 1, 9, 12)`
 2. **Calculate Differences**: Swap each number with the absolute difference of it and the next one (yep, it loops around).
-3. **Repeat**: Keep going until all four numbers turn into zero. Trust us, it’s cooler than it sounds. e.g. (3, 1, 9, 12) -> (2, 8, 3, 9) -> (6, 5, 6, 7) -> (1, 1, 1, 1) -> (0, 0, 0, 0)
+3. **Repeat**: Keep going until all four numbers turn into zero. Trust us, it’s cooler than it sounds. e.g. `(3, 1, 9, 12)` --> `(2, 8, 3, 9)` --> `(6, 5, 6, 7)` --> `(1, 1, 1, 1)` --> `(0, 0, 0, 0)`
 
 An easier way to understand this is to draw it visually, on paper, like this:
 
 ![Diffy Squares example](https://cloud-6snvekeo9-hack-club-bot.vercel.app/0image.png)
+OHH OOPS! There was supposed to be a `3` between `12` and `9`.
 
 ### Why Should You Care?
 
