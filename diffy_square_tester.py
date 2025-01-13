@@ -1,7 +1,7 @@
 from sys import exit
 
-# Function for counting Diffy levels
 def diffy_squares(a, b, c, d):
+    """Function for counting Diffy levels"""
     counter = 0
     print(f"Round {counter}: ({a}, {b}, {c}, {d})")
     while not (a == 0 and b == 0 and c == 0 and d == 0):
@@ -10,8 +10,8 @@ def diffy_squares(a, b, c, d):
         counter += 1
     return counter
 
-# Gets the number for testing and prints the result
 def numbers_response():
+    """Gets the number for testing and prints the result"""
     # Input the four numbers to be tested
     a, b, c, d = map(float, input("\nEnter four numbers separated by spaces (CTRL+C to quit): ").split())
 
