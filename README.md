@@ -50,7 +50,7 @@ Enter the four numbers when prompted.
 2. Save the scripts in the same directory.
 3. Run the scripts as described in the usage sections above.
 
-## Example output (I made it run in the backgroud, and one day later...)
+## Example output (I made it run in the background, and one day later...)
 
 ```
 New max score: 4 with values: (0, 0, 0, 1)
